@@ -1,6 +1,6 @@
 # Damn Vulnerable NodeJS Application
 
-FROM node:fermium-bullseye-slim
+FROM node:14.21.3-bullseye-slim
 LABEL MAINTAINER "Subash SN"
 
 WORKDIR /app
